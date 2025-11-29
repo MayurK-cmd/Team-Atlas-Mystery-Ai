@@ -1,6 +1,6 @@
 # MysteryAI
 
-MysteryAI is an interactive AI-driven murder mystery game. It generates dynamic cases using GenAI. Players can interrogate suspects and witnesses. Each case is unique and engaging. 
+MysteryAI is an interactive AI-driven murder mystery game. It generates dynamic cases using GenAI. Players can interrogate suspects and witnesses. Each case is unique and engaging. Users can rewards on their evm wallets based on how they solve the cases
 
 
 # Tech Stack Used:
