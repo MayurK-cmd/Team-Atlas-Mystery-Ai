@@ -7,7 +7,7 @@ import UserStats from "../Stats/UserStats";
 //import { isAuthenticated } from "../Auth/Auth";
 import { auth, db, onAuthStateChange } from '../../Firebase/userAuth';
 import { collection, addDoc, serverTimestamp, doc, updateDoc, increment } from 'firebase/firestore';
-import WalletLeaderboard from "../Stats/WalletLeaderBoard.jsx";
+
 import {ethers} from "ethers";
 import { storeEmbeddingsForCase } from "./../../Firebase/storeEmbeddings";
 import { cosineSimilarity } from "../../RAG/cosineUtils";
@@ -15,7 +15,7 @@ import { getRelevantContext } from "./../../RAG/getRelaventContext";
 import { getEmbeddingFromHF } from "./../../RAG/generateEmbeddingHF";
 import { queryAllCaseSummaries } from "./../../RAG/queryAllCaseSummaries";
 import { storeOverviewEmbedding } from "../../RAG/storeOverviewEmbedding";
-
+import WalletLeaderboard from "../Stats/WalletLeaderboard.jsx";
 import { useAccount, useChainId, useSendTransaction, useWalletClient} from "wagmi";
 import { monad } from "../../waqmi.config.js";
 import { encodeAbiParameters, parseAbiParameters } from "viem";
